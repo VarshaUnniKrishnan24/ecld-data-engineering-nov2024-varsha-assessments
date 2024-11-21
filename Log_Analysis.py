@@ -1,5 +1,6 @@
 import pandas as pd
 
+# function to Parse each line into components Return tuple 
 def parse_log_line(line):
     parts = line.split(',')
     if len(parts) == 4:
@@ -8,6 +9,7 @@ def parse_log_line(line):
     else:
         return None  
 
+# function to Count unique IP addresses and return total count
 def get_unique_visitors(logs):
     unique_ips = set()
     for log_entry in logs:
@@ -15,6 +17,7 @@ def get_unique_visitors(logs):
             unique_ips.add(log_entry[1])
     return len(unique_ips)
 
+# function to Find most accessed endpoints and return list of tuples (endpoint, count)
 def get_popular_endpoints(logs, top_n=5):
     endpoint_counts = {}
     for log_entry in logs:
@@ -24,6 +27,7 @@ def get_popular_endpoints(logs, top_n=5):
     sorted_endpoints = sorted(endpoint_counts.items(), key=lambda item: item[1], reverse=True)
     return sorted_endpoints[:top_n]
 
+# function to Calculate percentage of 4xx/5xx status codes and return float percentage
 def get_error_rate(logs):
     error_count = 0
     total_count = 0
@@ -37,7 +41,7 @@ def get_error_rate(logs):
         return 0.0
     return (error_count / total_count) * 100
 
-
+# function to Print formatted summary
 def generate_report(filename):
     logs = []
     print("Parsed data:timestamp, IP address, status_code")
