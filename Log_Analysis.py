@@ -64,3 +64,39 @@ def generate_report(filename):
         print(f"\n\n Error Rate: {error_rate:.2f}%")
 
 generate_report("sample-log.txt")
+
+
+import pandas as pd
+ 
+column_names = ['timestamp', 'ip', 'status_code', 'endpoint']
+ 
+ 
+def get_unique_visitors(df):
+    unique_visitor = df['ip'].nunique()
+    return unique_visitor
+ 
+def get_popular_endpoints(df):
+    endpoints = df['endpoint'].value_counts().head(5)
+    return list(endpoints.index, endpoints.values)
+ 
+def get_error_rate(df):
+    error_count = len(df[df['status_code'].str.startswith('4') | df['status_code'].str.startswith('5')])
+    total = len(df)
+    error_rate = (error_count / total) * 100
+    return error_rate
+ 
+def generate_report(filename):
+    df = pd.read_csv(filename, sep=",", names=column_names)
+  
+    UniqueVisitors = get_unique_visitors(df)
+    PopularEndpoints = get_popular_endpoints(df)
+    ErrorRate = get_error_rate(df)
+ 
+    print("Parsed data:",df)
+    print(f"Unique Visitors: {UniqueVisitors}")
+    print(f"Popular Endpoints: {PopularEndpoints}")
+    print(f"Error Rate: {ErrorRate:}%")
+ 
+ 
+filename = "/content/sample-log.txt"
+generate_report(filename)
