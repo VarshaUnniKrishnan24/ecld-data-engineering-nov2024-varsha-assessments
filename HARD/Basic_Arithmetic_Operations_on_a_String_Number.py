@@ -1,3 +1,5 @@
+
+
 # Basic Arithmetic Operations on a String Number
 # Create a function to perform basic arithmetic operations that 
 # includes addition, subtraction, multiplication and division on a 
@@ -29,7 +31,7 @@ def arithmetic_operation(n):
         return result
     
     except ValueError:
-        return "Invalid format. Required format: 'number operator number'"
+        return "Invalid format. Required format: 'number operator number"
     
 
 print(arithmetic_operation("12 + 12")) # 24 
@@ -37,9 +39,13 @@ print(arithmetic_operation("12 - 12")) # 0
 print(arithmetic_operation("12 * 12")) # 144 
 print(arithmetic_operation("12 // 0")) # -1
 print(arithmetic_operation("12 // 3"))  # 4
-print(arithmetic_operation("12 & 12"))  # "Invalid input"
-print(arithmetic_operation("12 + abc"))  # "Invalid input"
-print(arithmetic_operation("12"))  # "Invalid input"
+print(arithmetic_operation("12 & 12"))  # Invalid operator
+print(arithmetic_operation("12 + abc"))  # Invalid format. Required format: 'number operator number
+print(arithmetic_operation("12"))  # Invalid format. Required format: 'number operator number
+
+
+
+
 
 
 # def arithmetic_operation(n):

@@ -1,11 +1,11 @@
-# Boolean Chain
-# Write three functions:
+'''Boolean Chain
+Write three functions:
 
-# boolean_and
-# boolean_or
-# boolean_xor
-# These functions should evaluate a list of True and False values, 
-# starting from the leftmost element and evaluating pairwise.
+boolean_and
+boolean_or
+boolean_xor
+These functions should evaluate a list of True and False values, 
+starting from the leftmost element and evaluating pairwise.'''
 
 def boolean_and(lst):
  for i in range(1,len(lst)):
