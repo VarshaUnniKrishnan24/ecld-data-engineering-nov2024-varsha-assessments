@@ -2,10 +2,10 @@
 
 ## This GitHub repository serves as a centralized hub for storing weekly assessment solutions and practical exercise codes, organized by dates and difficulty levels, showcasing structured learning and hands-on expertise in various technologies.
 
-# README.md
-- The main file providing an overview of the project.
+# 1. README.md
+- The main file providing an overview of the repository.
 
-# assessments
+# 2. assessments
 ---
 
 ### 20241121
@@ -15,7 +15,7 @@
 ### 20241205
 - [de_coding_exercises](assessments\20241205\e_commerce_product_performance_analysis.ipynb)
 
-# exercises
+# 3. exercises
 ---
 ### easy
 - [Calculating Damage](https://edabit.com/challenge/HSHHkdRYXfgfZSqri) - [Solution](exercises/EASY/Calculating_Damage.py)
