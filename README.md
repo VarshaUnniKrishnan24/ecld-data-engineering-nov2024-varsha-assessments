@@ -9,8 +9,8 @@
 ---
 
 ### 20241121
-- [Python_Coding_Task_1](assessments\20241121\Python_Coding_Task_1\log_analysis.py)
-- [1_SQL_Training_Exercises](assessments\20241121\1_SQL_Training_Exercises\Exercise1_Customer_Segmentation_Analysis.sql)
+- [Python_Coding_Task_1](assessments/20241121/Python_Coding_Task_1/log_analysis.py)
+- [1_SQL_Training_Exercises](assessments/20241121/1_SQL_Training_Exercises/Exercise1_Customer_Segmentation_Analysis.sql)
 
 ### 20241205
 - [de_coding_exercises](assessments\20241205\e_commerce_product_performance_analysis.ipynb)
