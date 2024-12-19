@@ -16,9 +16,9 @@
 - [de_coding_exercises](assessments/20241205/e_commerce_product_performance_analysis.ipynb)
 
 ### 20241219
-- [Exercise 1: Log File Analysis System](assessments\20241219\exercise_1.py)
-- [Exercise 2: Data Schema Validator](assessments\20241219\exercise_2.py)
-- [Exercise 3: ETL Pipeline for E-commerce Analytics](assessments\20241219\exercise_3.py)
+- [Exercise 1: Log File Analysis System](assessments/20241219/exercise_1.py)
+- [Exercise 2: Data Schema Validator](assessments/20241219/exercise_2.py)
+- [Exercise 3: ETL Pipeline for E-commerce Analytics](assessments/20241219/exercise_3.py)
 
 # 3. exercises
 ---
