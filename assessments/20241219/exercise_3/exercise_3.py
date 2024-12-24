@@ -1,6 +1,11 @@
+# Python Data Engineering Coding Exercises
+
+#Exercise 3: ETL Pipeline for E-commerce Analytics
+
+
 import pandas as pd
 
-raw_data = pd.read_json('assessments\20241219\sample-dataset-3.json')
+raw_data = pd.read_json('assessments\20241219\exercise_3\sample-dataset-3.json')
 
 '''Function that transforms raw transaction data:
       Flatten nested JSON structures using lambda functions
