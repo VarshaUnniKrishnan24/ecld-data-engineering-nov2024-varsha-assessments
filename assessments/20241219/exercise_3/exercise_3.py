@@ -67,13 +67,13 @@ def generate_transaction_reports(df):
 # Calling the functions
 transformed_data, product_categories = transform_transaction_data(raw_data)
 print(transformed_data.head())
-print(f"\nUnique Product Categories:\n{product_categories}")
+print(f"\n Unique Product Categories:\n {product_categories}")
 
 sales_by_region, top_selling_products, avg_transaction_value = analyze_transaction_data(transformed_data)
-print(f"\nRegional Sales:\n{sales_by_region}")
-print(f"\nTop Selling Products:\n{top_selling_products}")
-print(f"\nAverage Transaction Value by Payment Method:\n{avg_transaction_value}")
+print(f"\n Regional Sales:\n {sales_by_region}")
+print(f"\n Top Selling Products:\n {top_selling_products}")
+print(f"\n Average Transaction Value by Payment Method:\n{avg_transaction_value}")
 
 daily_stats, monthly_stats = generate_transaction_reports(transformed_data)
-print(f"\nDaily Summary Statistics:\n{daily_stats}")
-print(f"\nMonthly Summary Statistics:\n{monthly_stats}")
+print(f"\n Daily Summary Statistics: \n {daily_stats}")
+print(f"\n Monthly Summary Statistics: \n {monthly_stats}")
