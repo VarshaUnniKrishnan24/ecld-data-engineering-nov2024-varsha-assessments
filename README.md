@@ -53,7 +53,7 @@
 - [All Pairs that Sum to Target](https://edabit.com/challenge/8LZdBwmpBiLJ5Sobt) - [Solution](exercises/hard/all_pairs_that_sum_to_target.py)
 
 
-# 4. assignment
+### assignment
 ---
 ## **1. Data Pipeline**
 - **Data Cleaning:** [1_clean_data.ipynb](exercises/assignment/1_data_pipeline/1_clean_data.ipynb)
