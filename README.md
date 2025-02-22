@@ -55,21 +55,21 @@
 
 ### assignment
 - **1. Data Pipeline**
-- **Data Cleaning:** [1_clean_data.ipynb](exercises/assignment/1_data_pipeline/1_clean_data.ipynb)
-- **Sales Processing:** [2_process_sales_history.ipynb](exercises/assignment/1_data_pipeline/2_process_sales_history.ipynb)
-- **Database Schema:** [3_postgreSQL_schema.sql](exercises/assignment/1_data_pipeline/3_postgreSQL_schema.sql)
-- **Data Insertion:** [4_pyspark_to_sql.ipynb](exercises/assignment/1_data_pipeline/4_pyspark_to_sql.ipynb)
-- **SQL Analysis Queries:** [5_sql_analysis_query.sql](exercises/assignment/1_data_pipeline/5_sql_analysis_query.sql)
+- Data Cleaning: [1_clean_data.ipynb](exercises/assignment/1_data_pipeline/1_clean_data.ipynb)
+- Sales Processing: [2_process_sales_history.ipynb](exercises/assignment/1_data_pipeline/2_process_sales_history.ipynb)
+- Database Schema: [3_postgreSQL_schema.sql](exercises/assignment/1_data_pipeline/3_postgreSQL_schema.sql)
+- Data Insertion: [4_pyspark_to_sql.ipynb](exercises/assignment/1_data_pipeline/4_pyspark_to_sql.ipynb)
+- SQL Analysis Queries: [5_sql_analysis_query.sql](exercises/assignment/1_data_pipeline/5_sql_analysis_query.sql)
 
 - **2. Transformations**
-- **Data Transformations:** [6_transformations.ipynb](exercises/assignment/2_transformations/6_transformations.ipynb)
+- Data Transformations: [6_transformations.ipynb](exercises/assignment/2_transformations/6_transformations.ipynb)
 
 - **3. Analysis Features**
-- **Retail Store Chain Analysis:** [7_analysis_features.ipynb](exercises/assignment/3_analysis_features/7_analysis_features.ipynb)
+- Retail Store Chain Analysis: [7_analysis_features.ipynb](exercises/assignment/3_analysis_features/7_analysis_features.ipynb)
 
-- **5. data**
-- **Initial Training Data:** [1_initial_train.csv](exercises/assignment/data/1_initial_train.csv)
+- **4. data**
+- Initial Training Data: [1_initial_train.csv](exercises/assignment/data/1_initial_train.csv)
 
 
-- **6. project_documentation**
-- **Project Documentation:** [documentation.pdf](exercises/assignment/project_documentation/documentation.pdf)
+- **5. project_documentation**
+- Project Documentation: [documentation.pdf](exercises/assignment/project_documentation/documentation.pdf)
