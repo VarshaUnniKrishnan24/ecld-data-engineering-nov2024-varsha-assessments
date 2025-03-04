@@ -6,14 +6,14 @@ GRANT INSERT, UPDATE, DELETE ON  TABLES TO retail_db_user;
 
 -- PostgreSQL Schema for Retail Analytics
 
--- Customer Dimension Table
+-- Customer Table
 CREATE TABLE Customers (
     CustomerID VARCHAR PRIMARY KEY,
     CustomerName VARCHAR NOT NULL,
     Segment VARCHAR CHECK (Segment IN ('Consumer', 'Corporate', 'Home Office'))
 );
 
--- Geography Dimension Table
+-- Geography Table
 CREATE TABLE Geography (
     PostalCode VARCHAR PRIMARY KEY,
     City VARCHAR NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE Geography (
     Region VARCHAR CHECK (Region IN ('West', 'East', 'Central', 'South'))
 );
 
--- Product Dimension Table
+-- Product Table
 CREATE TABLE Products (
     ProductID VARCHAR NOT NULL,
     ProductName VARCHAR NOT NULL,
@@ -30,9 +30,7 @@ CREATE TABLE Products (
     PRIMARY KEY (ProductID,ProductName)
 );
 
-
-
--- Order Dimension Table
+-- Order Table
 CREATE TABLE Orders (
     OrderID VARCHAR PRIMARY KEY,
     OrderDate DATE NOT NULL,
