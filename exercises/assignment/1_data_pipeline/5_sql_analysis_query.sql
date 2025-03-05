@@ -53,14 +53,6 @@ FROM Orders
 GROUP BY Order_Year
 ORDER BY Order_Year;
 
--- Repeat Customer Rate
-SELECT 
-    COUNT(DISTINCT CASE WHEN order_count > 1 THEN CustomerID END) * 100.0 / COUNT(DISTINCT CustomerID) AS Repeat_Customer_Percentage
-FROM (
-    SELECT rs.CustomerID, COUNT(DISTINCT rs.OrderID) AS order_count
-    FROM Retail_Sales rs
-    GROUP BY rs.CustomerID
-) customer_orders;
 
 --Shows which shipping modes are most frequently used in high-value sales
 SELECT o.ShipMode, SUM(rs.Sales) AS Total_Sales
