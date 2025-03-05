@@ -72,4 +72,4 @@
 
 
 - **5. project_documentation**
-- [Project Documentation](exercises/assignment/project_documentation/project_documentaion.pdf)
+- [Project Documentation](exercises/assignment/project_documentation/project_documentation.pdf)
