@@ -52,7 +52,7 @@ df['Ship Date'] = pd.to_datetime(df['Ship Date'], format='%d/%m/%Y', errors='coe
 #Checking for Invalid Dates
 invalid_dates = df[df['Order Date'].isna() | df['Ship Date'].isna()]
 if not invalid_dates.empty:
-    print(f"\n⚠️ Warning: {len(invalid_dates)} rows have invalid dates!")
+    print(f"\n Warning: {len(invalid_dates)} rows have invalid dates!")
 
 
 print("\nConverting Essential Columns to 'Category' Type")

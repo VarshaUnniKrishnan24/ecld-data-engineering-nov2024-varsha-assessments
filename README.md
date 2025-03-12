@@ -65,11 +65,13 @@
 - [Data Transformations](exercises/assignment/2_transformations/6_transformations.ipynb)
 
 - **3. Analysis Features**
-- [Initial Training Data](exercises/assignment/3_analysis_features/7_analysis_features.ipynb)
+- [Data Analysis](exercises/assignment/3_analysis_features/7_analysis_features.ipynb)
+
+- **4. Forecast**
+- [Sales Forecast](exercises\assignment\4_forecast\9_sales_forecast.ipynb)
 
 - **4. data**
 - [Initial Training Data](exercises/assignment/data/1_initial_train.csv)
-
 
 - **5. project_documentation**
 - [Project Documentation](exercises/assignment/project_documentation/project_documentaion.pdf)

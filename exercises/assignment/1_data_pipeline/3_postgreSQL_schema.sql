@@ -1,8 +1,8 @@
 -- PostgreSQL schema for retail analytics, defining dimension tables for customers, geography, products, 
 -- and orders, along with a fact table for sales data. 
 
-ALTER DEFAULT PRIVILEGES IN SCHEMA public 
-GRANT INSERT, UPDATE, DELETE ON  TABLES TO retail_db_user;
+-- ALTER DEFAULT PRIVILEGES IN SCHEMA public 
+-- GRANT INSERT, UPDATE, DELETE ON  TABLES TO retail_db_user;
 
 -- PostgreSQL Schema for Retail Analytics
 
